@@ -126,7 +126,7 @@ class TinderBot:
 
 bot = TinderBot()
 bot.login()
-print('Number of pictures present in the dataset : ', bot.i)
+print('Number of pictures present in your dataset : ', bot.i)
 while True :
     try:
         bot.extractImage()
