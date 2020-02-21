@@ -1,0 +1,6 @@
+selenium
+json
+tensorflow
+mtcnn
+opencv
+numpy
