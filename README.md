@@ -6,3 +6,6 @@ It can also be used to like men's profiles by setting the 'preferGirl' attribute
 
 
 It also downloads all the seen pictures and makes a list of all the image file links embedded in the Tinder website so that they can be downloaded later easily if anything goes wrong.
+
+
+Inspired by : Code Drip. His YouTube channel link : https://www.youtube.com/channel/UCRLEADhMcb8WUdnQ5_Alk7g
