@@ -1,5 +1,5 @@
-# This script will enable you to start-up your own Tinder automator without any tweaks. Recommended for beginners and Non-Coders.
-# If you want to have more control over the activities, please import TBot.py in your own code.
+# This script can be imported into your code and can be used by the object attributes and methods.
+# Just create a TinderBot object and start automating.
 
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
@@ -122,18 +122,3 @@ class TinderBot:
         else :
             self.dislike()
             print('Failed to detect any human face.....')
-
-
-bot = TinderBot()
-bot.login()
-print('Number of pictures present in the dataset : ', bot.i)
-while True :
-    try:
-        bot.extractImage()
-        time.sleep(1)
-        bot.autoPilot()
-    except Exception:
-        try:
-            bot.cancelPopup()
-        except Exception:
-            bot.dislike()
